@@ -9,6 +9,12 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:visibility="invisible" >
+        <ImageView
+            android:id="@+id/news_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"/>
 
         <TextView
             android:id="@+id/news_title"
@@ -17,7 +23,7 @@
             android:gravity="center"
             android:padding="10dp"
             android:textSize="20sp" />
-
+<!--分割线-->
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
